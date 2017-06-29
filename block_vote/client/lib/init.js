@@ -14,3 +14,5 @@ if(typeof web3 !== 'undefined' && typeof Web3 !== 'undefined') {
 EthAccounts.init()
 //initialize the session with default value
 defaultSessionVars();
+
+ 

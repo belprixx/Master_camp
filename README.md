@@ -3,7 +3,7 @@
 All you have to do is to modify the HttpProvider to adapt to yours.
 
 ```javascript
-web3 = new Web3(new Web3.providers.HttpProvider("http://163.5.245.96:8545"));
+web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
 ```
 
 ## Test with testrpc

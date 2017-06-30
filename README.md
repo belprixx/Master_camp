@@ -81,5 +81,5 @@ Now, you will have to add the smartcontracts' adress to our javascript.
 Open the index.js and modify line 5 and set the adress that the command `deployedContract.address` and paste the address.
 
 ```javascript
-contractInstance = VotingContract.at('SetYourAdressHere');
+contractInstance = VotingContract.at('SetYourAddressHere');
 ```

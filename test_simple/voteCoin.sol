@@ -4,10 +4,10 @@ contract tokenRecipient { function receiveApproval(address _from, uint256 _value
 contract VoteCoin {
     /* Public variables of the token */
     string public standard = 'Token 0.1';
-    string public name;
-    string public symbol;
-    uint8 public decimals;
-    uint256 public totalSupply;
+    string public name = VoteCoins;
+    string public symbol = VoteCoins;
+    uint8 public decimals = 1;
+    uint256 public totalSupply = 1000;
 
     /* This creates an array with all balances */
     mapping (address => uint256) public balanceOf;

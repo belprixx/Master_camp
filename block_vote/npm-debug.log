@@ -1,0 +1,175 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'ethereumjs-testrpc' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.29
+4 verbose cache add [ 'ethereumjs-testrpc', null ]
+5 verbose cache add name=undefined spec="ethereumjs-testrpc" args=["ethereumjs-testrpc",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'ethereumjs-testrpc',
+6 verbose parsed url   path: 'ethereumjs-testrpc',
+6 verbose parsed url   href: 'ethereumjs-testrpc' }
+7 silly lockFile aeaa7d72-ethereumjs-testrpc ethereumjs-testrpc
+8 verbose lock ethereumjs-testrpc /home/chassa_r/.npm/aeaa7d72-ethereumjs-testrpc.lock
+9 silly lockFile aeaa7d72-ethereumjs-testrpc ethereumjs-testrpc
+10 silly lockFile aeaa7d72-ethereumjs-testrpc ethereumjs-testrpc
+11 verbose addNamed [ 'ethereumjs-testrpc', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 1bd27942-ethereumjs-testrpc ethereumjs-testrpc@
+14 verbose lock ethereumjs-testrpc@ /home/chassa_r/.npm/1bd27942-ethereumjs-testrpc.lock
+15 silly addNameRange { name: 'ethereumjs-testrpc', range: '*', hasData: false }
+16 verbose request where is /ethereumjs-testrpc
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 06a6b0979466f5e9
+19 verbose url raw /ethereumjs-testrpc
+20 verbose url resolving [ 'https://registry.npmjs.org/', './ethereumjs-testrpc' ]
+21 verbose url resolved https://registry.npmjs.org/ethereumjs-testrpc
+22 verbose request where is https://registry.npmjs.org/ethereumjs-testrpc
+23 info trying registry request attempt 1 at 11:18:00
+24 verbose etag W/"5953d26f-113a1"
+25 http GET https://registry.npmjs.org/ethereumjs-testrpc
+26 http 304 https://registry.npmjs.org/ethereumjs-testrpc
+27 silly registry.get cb [ 304,
+27 silly registry.get   { date: 'Thu, 29 Jun 2017 09:15:31 GMT',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     'cache-control': 'max-age=300',
+27 silly registry.get     etag: 'W/"5953d26f-113a1"',
+27 silly registry.get     age: '0',
+27 silly registry.get     connection: 'keep-alive',
+27 silly registry.get     'x-served-by': 'cache-cdg8726-CDG',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1498727731.469242,VS0,VE20',
+27 silly registry.get     vary: 'Accept-Encoding' } ]
+28 verbose etag https://registry.npmjs.org/ethereumjs-testrpc from cache
+29 silly addNameRange number 2 { name: 'ethereumjs-testrpc', range: '*', hasData: true }
+30 silly addNameRange versions [ 'ethereumjs-testrpc',
+30 silly addNameRange   [ '0.1.0',
+30 silly addNameRange     '0.1.1',
+30 silly addNameRange     '1.0.0',
+30 silly addNameRange     '1.1.0',
+30 silly addNameRange     '1.2.0',
+30 silly addNameRange     '1.2.1',
+30 silly addNameRange     '2.0.0',
+30 silly addNameRange     '2.0.1',
+30 silly addNameRange     '2.0.2',
+30 silly addNameRange     '2.0.3',
+30 silly addNameRange     '2.0.4',
+30 silly addNameRange     '2.0.5',
+30 silly addNameRange     '2.0.6',
+30 silly addNameRange     '2.0.7',
+30 silly addNameRange     '2.0.8',
+30 silly addNameRange     '2.0.9',
+30 silly addNameRange     '2.1.0',
+30 silly addNameRange     '2.2.0',
+30 silly addNameRange     '2.2.1',
+30 silly addNameRange     '2.2.2',
+30 silly addNameRange     '2.2.3',
+30 silly addNameRange     '2.2.4',
+30 silly addNameRange     '2.2.5',
+30 silly addNameRange     '2.2.6',
+30 silly addNameRange     '2.2.7',
+30 silly addNameRange     '3.0.0',
+30 silly addNameRange     '3.0.1',
+30 silly addNameRange     '3.0.2',
+30 silly addNameRange     '3.0.3',
+30 silly addNameRange     '3.0.4',
+30 silly addNameRange     '3.0.5',
+30 silly addNameRange     '3.9.2',
+30 silly addNameRange     '4.0.0',
+30 silly addNameRange     '4.0.1' ] ]
+31 verbose addNamed [ 'ethereumjs-testrpc', '4.0.1' ]
+32 verbose addNamed [ '4.0.1', '4.0.1' ]
+33 silly lockFile ede0e2d0-ethereumjs-testrpc-4-0-1 ethereumjs-testrpc@4.0.1
+34 verbose lock ethereumjs-testrpc@4.0.1 /home/chassa_r/.npm/ede0e2d0-ethereumjs-testrpc-4-0-1.lock
+35 silly lockFile ede0e2d0-ethereumjs-testrpc-4-0-1 ethereumjs-testrpc@4.0.1
+36 silly lockFile ede0e2d0-ethereumjs-testrpc-4-0-1 ethereumjs-testrpc@4.0.1
+37 silly lockFile 1bd27942-ethereumjs-testrpc ethereumjs-testrpc@
+38 silly lockFile 1bd27942-ethereumjs-testrpc ethereumjs-testrpc@
+39 silly resolved [ { name: 'ethereumjs-testrpc',
+39 silly resolved     version: '4.0.1',
+39 silly resolved     bin: { testrpc: './build/cli.node.js' },
+39 silly resolved     main: './build/lib.node.js',
+39 silly resolved     directories: { lib: './lib' },
+39 silly resolved     scripts:
+39 silly resolved      { start: './build/cli.node.js',
+39 silly resolved        test: 'mocha',
+39 silly resolved        build: 'npm run build-cli && npm run build-server && npm run build-provider && npm run build-lib',
+39 silly resolved        'build-cli': 'webpack --config ./webpack/cli.webpack.config.js',
+39 silly resolved        'build-server': 'webpack --config ./webpack/server.webpack.config.js',
+39 silly resolved        'build-provider': 'webpack --config ./webpack/provider.webpack.config.js',
+39 silly resolved        'build-lib': 'webpack --config ./webpack/lib.webpack.config.js',
+39 silly resolved        prepublish: 'npm run build' },
+39 silly resolved     devDependencies: { 'ganache-core': '1.0.1', yargs: '^7.0.2' },
+39 silly resolved     repository:
+39 silly resolved      { type: 'git',
+39 silly resolved        url: 'git+https://github.com/ethereumjs/testrpc.git' },
+39 silly resolved     dependencies: { webpack: '^3.0.0' },
+39 silly resolved     gitHead: '1e4bcd0e397e5c874a38227d776b471c892ad448',
+39 silly resolved     description: '[![npm](https://img.shields.io/npm/v/ethereumjs-testrpc.svg)]() [![npm](https://img.shields.io/npm/dm/ethereumjs-testrpc.svg)]() [![Build Status](https://travis-ci.org/ethereumjs/testrpc.svg?branch=master)](https://travis-ci.org/ethereumjs/testrpc)',
+39 silly resolved     bugs: { url: 'https://github.com/ethereumjs/testrpc/issues' },
+39 silly resolved     homepage: 'https://github.com/ethereumjs/testrpc#readme',
+39 silly resolved     _id: 'ethereumjs-testrpc@4.0.1',
+39 silly resolved     _shasum: 'af23babff4c36008418bc6de4c80f81606896cad',
+39 silly resolved     _from: 'ethereumjs-testrpc@',
+39 silly resolved     _npmVersion: '3.10.8',
+39 silly resolved     _nodeVersion: '6.9.1',
+39 silly resolved     _npmUser: { name: 'tcoulter', email: 'tim@timothyjcoulter.com' },
+39 silly resolved     dist:
+39 silly resolved      { shasum: 'af23babff4c36008418bc6de4c80f81606896cad',
+39 silly resolved        tarball: 'https://registry.npmjs.org/ethereumjs-testrpc/-/ethereumjs-testrpc-4.0.1.tgz' },
+39 silly resolved     maintainers: [ [Object] ],
+39 silly resolved     _npmOperationalInternal:
+39 silly resolved      { host: 's3://npm-registry-packages',
+39 silly resolved        tmp: 'tmp/ethereumjs-testrpc-4.0.1.tgz_1498665582849_0.4927755214739591' },
+39 silly resolved     _resolved: 'https://registry.npmjs.org/ethereumjs-testrpc/-/ethereumjs-testrpc-4.0.1.tgz',
+39 silly resolved     readme: 'ERROR: No README data found!' } ]
+40 info install ethereumjs-testrpc@4.0.1 into /usr/local/lib
+41 info installOne ethereumjs-testrpc@4.0.1
+42 verbose lib/node_modules/ethereumjs-testrpc unbuild
+43 verbose tar unpack /home/chassa_r/.npm/ethereumjs-testrpc/4.0.1/package.tgz
+44 silly lockFile 1a1debdb--node-modules-ethereumjs-testrpc tar:///usr/local/lib/node_modules/ethereumjs-testrpc
+45 verbose lock tar:///usr/local/lib/node_modules/ethereumjs-testrpc /home/chassa_r/.npm/1a1debdb--node-modules-ethereumjs-testrpc.lock
+46 silly lockFile 163d4bf1-reumjs-testrpc-4-0-1-package-tgz tar:///home/chassa_r/.npm/ethereumjs-testrpc/4.0.1/package.tgz
+47 verbose lock tar:///home/chassa_r/.npm/ethereumjs-testrpc/4.0.1/package.tgz /home/chassa_r/.npm/163d4bf1-reumjs-testrpc-4-0-1-package-tgz.lock
+48 silly gunzTarPerm modes [ '755', '644' ]
+49 error Error: EACCES, mkdir '/usr/local/lib/node_modules/ethereumjs-testrpc'
+49 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/ethereumjs-testrpc']
+49 error   errno: 3,
+49 error   code: 'EACCES',
+49 error   path: '/usr/local/lib/node_modules/ethereumjs-testrpc',
+49 error   fstream_type: 'Directory',
+49 error   fstream_path: '/usr/local/lib/node_modules/ethereumjs-testrpc',
+49 error   fstream_class: 'DirWriter',
+49 error   fstream_stack:
+49 error    [ '/usr/lib/nodejs/fstream/lib/dir-writer.js:36:23',
+49 error      '/usr/lib/nodejs/mkdirp/index.js:46:53',
+49 error      'Object.oncomplete (fs.js:107:15)' ] }
+50 error Please try running this command again as root/Administrator.
+51 error System Linux 3.16.0-4-amd64
+52 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "ethereumjs-testrpc"
+53 error cwd /home/chassa_r/projet_git/Master_camp/block_vote
+54 error node -v v0.10.29
+55 error npm -v 1.4.21
+56 error path /usr/local/lib/node_modules/ethereumjs-testrpc
+57 error fstream_path /usr/local/lib/node_modules/ethereumjs-testrpc
+58 error fstream_type Directory
+59 error fstream_class DirWriter
+60 error code EACCES
+61 error errno 3
+62 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/ethereumjs-testrpc'
+63 error fstream_stack /usr/lib/nodejs/fstream/lib/dir-writer.js:36:23
+63 error fstream_stack /usr/lib/nodejs/mkdirp/index.js:46:53
+63 error fstream_stack Object.oncomplete (fs.js:107:15)
+64 verbose exit [ 3, true ]

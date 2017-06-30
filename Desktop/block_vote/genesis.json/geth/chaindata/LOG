@@ -18,3 +18,13 @@
 16:00:08.679665 db@open done T·87.211996ms
 16:01:35.783898 db@close closing
 16:01:35.783998 db@close done T·97.57µs
+=============== Jun 28, 2017 (CEST) ===============
+12:54:31.030077 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:54:31.030919 version@stat F·[1] S·1MiB[1MiB] Sc·[0.25]
+12:54:31.030937 db@open opening
+12:54:31.030995 journal@recovery F·1
+12:54:31.032380 journal@recovery recovering @3
+12:54:31.033631 memdb@flush created L0@5 N·3 S·497B "Blo..ion,v21270":"eth..ˏ\xa3,v21269"
+12:54:31.034144 version@stat F·[2] S·1MiB[1MiB] Sc·[0.50]
+12:54:31.034774 db@janitor F·4 G·0
+12:54:31.034791 db@open done T·3.8474ms
